@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-de-especies-vegetales",
+  "version": "1.0.0",
+  "description": "Aprovechamiento de especies vegetales nativas con potencial en la gastronomía.",
+  "main": "index",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "url"
+  },
+  "keywords": [
+    "especies",
+    "vegetales"
+  ],
+  "author": "Miguel Angel Cano",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
