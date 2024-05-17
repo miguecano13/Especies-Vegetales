@@ -64,11 +64,12 @@ ul, ol {
 	background-color: #9976dd;
 	border-radius: 50%;
 	cursor: pointer;
-	
 	transition: .5s ease-in-out;
+    z-index: 1;
 }
 .point:hover {
 	transform: rotate(90deg);
+    z-index: 2;
 }
 .point::after {
     width: 3.9rem;
@@ -81,7 +82,7 @@ ul, ol {
 	border-radius: 50%;
 	opacity: 0;
 	margin: -1.3rem 0 0 -1.3rem;
-	animation: waves 20s infinite;
+	animation: waves 20s infinite;    
 }
 div .text{
     color: black;
@@ -107,6 +108,7 @@ div .text{
     left: -8rem;
 	transform: rotate(-90deg);
 	display: none;
+    z-index: 10;
 }
 .point:hover .info {
 	display: block;
@@ -118,6 +120,7 @@ div .text{
 	position: absolute;
 	animation: appear 1s;
 	transition: 1s;
+    z-index: 3;
 }
 .content_container:before {
 	content: '';
@@ -250,61 +253,67 @@ div .text{
 	animation-delay: 10s;
 }
 
-
-#extremadura {
-    top: 36rem;
-    left: 33.5rem;
+#MarialaBaja {
+    top: 50.8rem;
+    left: 36.5rem;
 }
-#extremadura::after {
+#MarialaBaja::after {
 	animation-delay: 11s;
 }
-#rioja{
-    top: 11.5rem;
-    left: 53rem;
+
+#Nepomuceno {
+    top: 53.1rem;
+    left: 50rem;
 }
-#rioja::after {
+#Nepomuceno::after {
 	animation-delay: 12s;
 }
-#ceuta {
-    top: 56.5rem;
-    left: 38rem;
+
+#SanJacinto  {
+    top: 60.3rem;
+    left: 47.5rem;
 }
-#ceuta::after {
+#SanJacinto ::after {
 	animation-delay: 13s;
 }
-#melilla {
-    top: 60.2rem;
-    left: 51.5rem;
+
+#Carmen {
+    top: 67.6rem;
+    left: 47.6rem;
 }
-#melilla::after {
+#Carmen::after {
 	animation-delay: 14s;
 }
-#canarias {
-    top: 59.5rem;
-    left: 13rem;
+
+#Zambrano {
+    top: 65.5rem;
+    left: 66.2rem;
 }
-#canarias::after {
+#Zambrano::after {
 	animation-delay: 15s;
 }
-#baleares{
-    top: 29.5rem;
-    left: 81rem;
+
+#SanCristobal{
+    top: 25.3rem;
+    left: 51rem;
 }
-#baleares::after {
+#SanCristobal::after {
 	animation-delay: 16s;
 }
-#castilla-la_mancha {
-    top: 30.5rem;
-    left: 44rem;
+
+#Soplaviento {
+    top: 25.5rem;
+    left: 47.2rem;
 }
-#castilla-la_mancha::after {
+#Soplaviento::after {
 	animation-delay: 17s;
 }
-#castilla_leon {
-	top: 16.5rem;
-    left: 40.5rem;
+
+#Turbana {
+	top: 32.5rem;
+    left: 27.5rem;
 }
-#castilla_leon::after {
+#Turbana::after {
 	animation-delay: 18s;
 }
 
