@@ -9,14 +9,14 @@
 html {
     font-size: 62.5%;
 }
-body {
+body .bg{
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    line-height: 1.7rem;
+    line-height: 0.7rem;
     color: #fff;
-    background-color: #c1ade0;
-    background-size: cover;
+    /* background-color: #c1ade0; */
+    background-size: cover; 
 }
 a {
     text-decoration: none;
@@ -46,8 +46,8 @@ ul, ol {
 }
 
 #Contenedor{
-    width: 816.2811;
-    height: 791.991;
+    width: 816.2811px;
+    height: 791.991px;
     position: relative;
 }
 
@@ -310,7 +310,7 @@ div .text{
 }
 
 #Turbana {
-	top: 32.5rem;
+    top: 32.5rem;
     left: 27.5rem;
 }
 #Turbana::after {
