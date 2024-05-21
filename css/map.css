@@ -317,6 +317,14 @@ div .text{
 	animation-delay: 18s;
 }
 
+#SanEstanislao {
+    top: 25.5rem;
+    left: 43.5rem;
+}
+#SanEstanislao::after {
+	animation-delay: 18s;
+}
+
 
 
 
