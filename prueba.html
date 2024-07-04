@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Especies Vegetales</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-    <link rel="stylesheet" href="css/main.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<body>
+  <body>
     <h1>Prueba Mapa interactivo Especies Vegetales</h1>
 
     <select name="select-location" id="select-location">
-        <option value="9.938754825564125, -75.15197753906251">Ingresa un lugar</option>
-        <option value="9.718860103072823,-75.12082099914552">El carmen de bolivar</option>
-        <option value="10.031352817724542,-74.97576713562013">El Guamo</option>
+      <option value="9.938754825564125, -75.15197753906251">
+        Ingresa un lugar
+      </option>
+      <option value="9.718860103072823,-75.12082099914552">
+        El carmen de bolivar
+      </option>
+      <option value="10.031352817724542,-74.97576713562013">El Guamo</option>
     </select>
 
     <div id="map"></div>
     <!-- Make sure you put this AFTER Leaflet's CSS -->
     <script src="js/Lat_Polygon.min.js"></script>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
